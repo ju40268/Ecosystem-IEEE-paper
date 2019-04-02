@@ -282,11 +282,8 @@ In this section, we analyze the statistical results and give example takeaways f
 
 We further discover possible layout and structural features for the graph by computing the SCC midst the network. Clusters, which each node is inter-reachable inside the sub-graph, are extracted out. For those 33\% with incoming and 7\% with outgoing connections, overlapped 36 vertices constitute a huge component. 
 We can assert our Ecosystem model to be a sparse graph, where most attributes are unreachable, and laying on the outlier of the network. Only 5\% congregate together and serves as a central concern for our identity management and fraud detection.
-We also introduce the betweeness and closeness centrality measurement to better understand the local patterns inside the cluster. Closeness is regarded as a measure of how long it will take to spread information from $v$ to all other nodes sequentially, then can be interpreted as least hops to be reached or reach from in the network. Those PIIs with high value can be viewed as 'broadcaster', which if breached or menaced.
-
-Betweenness centrality quantifies the number of times a node
-acts as a bridge along the shortest path between two other
-nodes.
+We also introduce the betweeness and closeness centrality measurement to better understand the influence in the topology. Closeness measures how long it will take to spread information from $v$ to all other nodes sequentially, then can be interpreted as least hops to be reached or reach from in the network. Those PIIs with high value can be viewed as 'broadcaster', which if breached or menaced, can deprecated others most efficiently. Betweenness centrality quantifies how often a node
+acts as a bridge along the shortest path between pairs, and act as controllers of power or information. Those PIIs with high value serve as 'bridgesness' 
 
 
 \section{Conclusion and Future Work}
